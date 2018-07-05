@@ -1,11 +1,26 @@
-# Setup for SX Pro
+# Setup SX Pro
 
 layout on micro SD:
-/hbmenu.nro (homebrew launcher)
-/switch (add homebrew applications)
 
-for mods:
-/sxos/titles/0<title_id>/exefs/main
+`/hbmenu.nro`
+
+`/switch/WAINCartDumperNX.nro`
+
+`/biskeydump.bin`
+
+`/hekate_ctcaer_3.1.bin`
+
+Boot into SX OS -> `Options` -> `Launch external payload` -> `biskeydump.bin`.
+
+Write down `SBK` & `TSEC` keys.
+
+Boot into SX OS -> `Options` -> `Launch external payload` -> `hekate_ctcaer_3.x.bin`.
+
+Inside hekate first do `Tools` -> `Dump package1` after that `Tools` -> `Backup` -> `Backup eMMC BOOT0/1` and then `Tools` -> `Backup` -> `Backup eMMC SYS`.
+
+Create a folder and put hactool, `keys.py`, BOOT0.bin (from sdcard/Backup/BOOT0), BCPKG2-1-Normal-Main.bin (from sdcard/Backup/Partitions/BCPKG2-1-Normal-Main) inside.
+
+Run `keys.py` <SBK> <TSEC>, if everything worked you can continue with the extraction of the game binaries.
 
 # Payloads overview
 

@@ -1,5 +1,5 @@
-[submodule "homebrew/nx-hbmenu"]
-	path = homebrew/nx-hbmenu
+[submodule "sources/nx-hbmenu"]
+	path = sources/nx-hbmenu
 	url = https://github.com/switchbrew/nx-hbmenu.git
 [submodule "sources/hekate"]
 	path = sources/hekate
@@ -7,3 +7,9 @@
 [submodule "sources/hactool"]
 	path = sources/hactool
 	url = https://github.com/SciresM/hactool.git
+[submodule "sources/loaders"]
+	path = sources/loaders
+	url = https://github.com/reswitched/loaders.git
+[submodule "sources/XCI-Explorer"]
+	path = sources/XCI-Explorer
+	url = https://github.com/StudentBlake/XCI-Explorer.git
