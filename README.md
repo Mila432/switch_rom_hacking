@@ -38,7 +38,8 @@ Extract CDNSP.zip.
 
 Download the patch with `CDNSP.py` and look for the biggest .nca file. I will use `v196608` for `0100000000010000`. Inside CDNSP/0100000000010000/0100000000010800/196608 you should see one folder and some .nca files:
 
-`04.07.2018  22:10         9.250.816 2675bb31701f9969ac16e646ec36a2ef.nca
+```
+04.07.2018  22:10         9.250.816 2675bb31701f9969ac16e646ec36a2ef.nca
 04.07.2018  22:10    <DIR>          4138fdc0b8e1176d5df6e0f78ec7f8d5.cnmt
 04.07.2018  22:10             5.632 4138fdc0b8e1176d5df6e0f78ec7f8d5.cnmt.nca
 04.07.2018  22:12         9.289.728 72aab69399f18a10807bd5f2f171ffb9.nca
@@ -50,7 +51,8 @@ Download the patch with `CDNSP.py` and look for the biggest .nca file. I will us
 04.07.2018  22:11       132.513.792 c6d4f22aa6077b940a9ef196964a5bdc.nca
 04.07.2018  22:12         1.163.264 cb71d988f456d2b84b865eb4ac72a46b.nca
 04.07.2018  22:10           210.944 e374fa88b7cd3c688fb3e40b2d5589f1.nca
-04.07.2018  22:12       134.299.648 e9bddc82a414f9c9b6de7146f40bdfc6.nca`
+04.07.2018  22:12       134.299.648 e9bddc82a414f9c9b6de7146f40bdfc6.nca
+```
 
 Create a new folder with hactool, c0628fb07a89e9050bda258f74868e8d.nca, keys.txt and run the following command `hactool -tnca -k keys.txt --exefsdir=exeout --titlekey=(find your titlekey online) c0628fb07a89e9050bda258f74868e8d.nca`. Under `exeout` you will find the new `main`. Use it for the steps below.
 
