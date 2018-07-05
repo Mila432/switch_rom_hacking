@@ -1,4 +1,4 @@
-# Setup SX Pro
+# Setup SX Pro (optional but nice to have!)
 
 Layout for your microSD:
 
@@ -30,7 +30,7 @@ Create a folder with hactool , keys.txt (find it online or do steps above), `Dec
 
 Extract CDNSP.zip.
 - getting info `CDNSP.py -i <titleid>`
-- downloading update `CDNSP.py -i <titleid>-<version>`
+- downloading update `CDNSP.py -i <titleid>+0x800-<version>` (only add 0x800 if you use the base titleid)
 
 # Loading main with IDA Pro
 ## Using loader
@@ -45,7 +45,11 @@ Execute `nx2elf.exe main` and load `main.elf` with this settings.
 
 ![main](https://raw.githubusercontent.com/Mila432/switch_rom_hacking/master/png/2.png)
 
+## Saving changes
 
-# Payloads overview
+After modifying the file to your liking, there are some steps required to create a working main again.
+If you used the recommended method simply run `elf2nso.exe main.elf newmain`, if went with the first one ... first execute `nx2elf.exe main`, apply your patches again and finally `elf2nso.exe main.elf newmain`.
 
-# hactool setup with SX Pro
+# Using mod
+
+Move your new `main` to `sdcard/sxos/titles/<titleid>/exefs/main`.
