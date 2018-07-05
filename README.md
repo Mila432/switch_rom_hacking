@@ -1,6 +1,6 @@
 # Setup SX Pro
 
-layout on micro SD:
+Layout for your microSD:
 
 `/hbmenu.nro`
 
@@ -20,7 +20,7 @@ Inside hekate first do `Tools` -> `Dump package1` after that `Tools` -> `Backup`
 
 Create a folder and put hactool, `keys.py`, BOOT0.bin (from sdcard/Backup/BOOT0), BCPKG2-1-Normal-Main.bin (from sdcard/Backup/Partitions/BCPKG2-1-Normal-Main) inside.
 
-Run `keys.py` <SBK> <TSEC>, if everything worked you can continue with the extraction of the game binaries.
+Run `keys.py` \<SBK\> \<TSEC\>, if everything worked you can continue with the extraction of the game binaries.
 
 # Payloads overview
 
