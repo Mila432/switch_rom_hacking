@@ -1,3 +1,9 @@
 [submodule "homebrew/nx-hbmenu"]
 	path = homebrew/nx-hbmenu
 	url = https://github.com/switchbrew/nx-hbmenu.git
+[submodule "sources/hekate"]
+	path = sources/hekate
+	url = https://github.com/CTCaer/hekate.git
+[submodule "sources/hactool"]
+	path = sources/hactool
+	url = https://github.com/SciresM/hactool.git
