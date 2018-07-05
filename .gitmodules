@@ -1,0 +1,3 @@
+[submodule "homebrew/nx-hbmenu"]
+	path = homebrew/nx-hbmenu
+	url = https://github.com/switchbrew/nx-hbmenu.git
