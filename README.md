@@ -16,7 +16,7 @@ Create a folder and put `hactool`, `keys.py`, `BOOT0.bin` (from `sdcard/Backup/B
 
 # Extracting application binary from .xci (version0 binary)
 
-Create a folder with `hactool`, `keys.txt` (find it online or do steps above), `Decrypt-XCI-v2.1.bat`, target .xci inside.
+Create a folder with `hactool`, `keys.ini` (find it online or do steps above), `Decrypt-XCI-v2.1.bat`, target .xci inside.
 
 Now simply run `Decrypt-XCI-v2.1.bat` and look for `xciDecrypted/exefs/main`.
 
